@@ -28,3 +28,49 @@ body{
     display: table;
 }
 /* THE ORIGINAL STYLING STARTS FROM HERE */
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Kalam', cursive;
+*/
+.expandIcon{
+    margin: 37px 20px 0 0;
+    float: left;
+}
+.expandIcon i{
+    font-size: 30px;
+}
+#logoBar{
+    width: 100%;
+    height:90px;
+    padding: 0 130px;
+    background-color: #410077;
+    color: #fff;
+}
+.logoHolder{
+    margin-top: 30px;
+    float: left;
+}
+.logoHolder h1{
+    font-family: 'Rubik';
+    font-weight: 100;
+    margin:0;
+    float: left;
+    padding:0 5px 2px;
+    border: 2px solid;
+    color: #fff;
+}
+.logoHolder h2{
+    font-family: 'Rubik';
+    font-weight: 100;
+    margin:10px 0 0;
+    float: left;
+    padding: 5px 10px 5px 2px;
+    line-height: 20px;
+    background-color: #fff;
+    color: #410077;
+    border-bottom-right-radius: 5px;
+}
