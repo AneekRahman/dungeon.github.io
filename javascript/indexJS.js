@@ -117,3 +117,38 @@ function scrollToggle(){
 }
 window.onscroll=scrollToggle;
 // THE ON SCROLL TOP BAR ENDS
+
+
+
+//THE TOOLTIP SHOW HIDE STARTS
+
+var catTip=document.getElementsByClassName("catIconTip")[0];
+var searchTip=document.getElementsByClassName("searchBarTip")[0];
+var picturesTip=document.getElementsByClassName("picturesTip")[0];
+var videosTip=document.getElementsByClassName("videosTip")[0];
+var aboutTip=document.getElementsByClassName("aboutTip")[0];
+var picturesIcon=document.getElementById('picturesIcon');
+var videosIcon=document.getElementById('videosIcon');
+var aboutIcon=document.getElementById('aboutIcon');
+var logIconTip=document.getElementsByClassName('logIconTip')[0];
+
+
+catIcon.onmouseenter= function(){catTip.style.opacity="1"};
+catIcon.onmouseleave= function(){catTip.style.opacity="0"};
+
+searchInput.onmouseenter=function(){searchTip.style.opacity="1"}
+searchInput.onmouseleave=function(){searchTip.style.opacity="0"}
+
+picturesIcon.onmouseenter=function(){picturesTip.style.opacity="1"}
+picturesIcon.onmouseleave=function(){picturesTip.style.opacity="0"}
+
+videosIcon.onmouseenter=function(){videosTip.style.opacity="1"}
+videosIcon.onmouseleave=function(){videosTip.style.opacity="0"}
+
+aboutIcon.onmouseenter=function(){aboutTip.style.opacity="1"}
+aboutIcon.onmouseleave=function(){aboutTip.style.opacity="0"}
+
+userBtn.onmouseenter=function(){logIconTip.style.opacity="1"}
+userBtn.onmouseleave=function(){logIconTip.style.opacity="0"}
+
+//THE TOOLTIP SHOW HIDE ENDS

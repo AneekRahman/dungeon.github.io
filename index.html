@@ -2,8 +2,12 @@
 <html>
     <head>
         <title>dungeon - Connecting ON</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aneek Rahman">
+        <meta name="keywords" content="dungeon,social,website,connect,people,friends,family,follow">
+        <meta name="description" content="dungeon - Connecting On People!">
         <link href="css/indexStyle.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Kalam:300,400,700|Quicksand:300,400,500,700|Roboto:100,300,400,500,700|Rubik:300,400,500,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700|Roboto:300,400,700|Rubik:300,400,500" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
@@ -11,6 +15,9 @@
             <div id="logoBarDiv">
                 <div class="catExpandIcon">
                     <i class="fa fa-bars" aria-hidden="true" id="catIcon"></i>
+                    <div class="tooltip catIconTip">
+                        <p>Show explore tab</p>
+                    </div>
                 </div>
                 <div class="logoHolder">
                     <a href="index.html">
@@ -20,9 +27,15 @@
                 <div id="topSearch">
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <input name="topSearch" type="search" placeholder="Search dungeon">
+                    <div class="tooltip searchBarTip">
+                        <p>Search dungeon.com</p>
+                    </div>
                 </div>
                 <div id="loginBox">
                     <i class="fa fa-user-circle" aria-hidden="true" id="userBtn"></i>
+                    <div class="tooltip logIconTip">
+                        <p>Log In Status</p>
+                    </div>
                     <div id="loginExpand">
                         <div class="nameHolder">
                             <h1 id="name">NOT LOGGED IN</h1>
@@ -34,37 +47,32 @@
                 </div>
                 <div class="navBar">
                     <ul>
-                        <a href="#"><li><i class="fa fa-camera-retro" aria-hidden="true"></i> Pictures</li></a>
-                        <a href="#"><li><i class="fa fa-video-camera" aria-hidden="true"></i> Videos</li></a>
-                        <a href="#"><li><i class="fa fa-desktop" aria-hidden="true"></i> Projects</li></a>
+                        <a href="#"><li id="picturesIcon"><i class="fa fa-camera-retro" aria-hidden="true"></i> Pictures</li></a>
+                        <div class="tooltip picturesTip">
+                            <p>Pictures on dungeon.com</p>
+                        </div>
+                        <a href="#"><li id="videosIcon"><i class="fa fa-video-camera" aria-hidden="true"></i> Videos</li></a>
+                        <div class="tooltip videosTip">
+                            <p>Videos on dungeon.com</p>
+                        </div>
+                        <a href="#"><li id="aboutIcon"><i class="fa fa-info-circle" aria-hidden="true"></i> About</li></a>
+                        <div class="tooltip aboutTip">
+                            <p>About dungeon.com</p>
+                        </div>
                     </ul>
                 </div>
             </div>
         </header>
         <div id="catHolder">
             <ul>
-                <h4>CATEGORIES:</h4>
-                <a href="#"><li>wildlife pictures</li></a>
-                <a href="#"><li>urban pictures</li></a>
-                <a href="#"><li>homemade videos</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
-                <a href="#"><li>CATEGORY</li></a>
+                <h4><i class="fa fa-eercast" aria-hidden="true"></i> Explore dungeon:</h4>
+                <a href="#"><li><i class="fa fa-users" aria-hidden="true"></i> contributors</li></a>
+                <a href="#"><li><i class="fa fa-rocket" aria-hidden="true"></i> clubs</li></a>
+                <a href="#"><li><i class="fa fa-calendar-o" aria-hidden="true"></i> Events</li></a>
+                <a href="#"><li><i class="fa fa-id-badge" aria-hidden="true"></i> pages</li></a>
+                <a href="#"><li><i class="fa fa-shopping-cart" aria-hidden="true"></i> shops</li></a>
+                <a href="#"><li><i class="fa fa-gamepad" aria-hidden="true"></i> games</li></a>
+                <a href="#"><li><i class="fa fa-check-square-o" aria-hidden="true"></i> live</li></a>
             </ul>
         </div>
         
